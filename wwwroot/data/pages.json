@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Nextcloud",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ajUEeupziDPQenoXFmF6ggHaHa%26pid%3DApi&f=1",
+    "link": "https://nextcloud.andersjohansson.duckdns.org"
+  },
+  {
+    "id": 2,
+    "name": "Plex",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwiki.mrmc.tv%2Fimages%2Fc%2Fcf%2FPlex_icon.png&f=1&nofb=1",
+    "link": "https://plex.andersjohansson.duckdns.org"
+  },
+  {
+    "id": 3,
+    "name": "Radarr",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.s6EWCYajBREBSKZtfaA2gQAAAA%26pid%3DApi&f=1",
+    "link": "https://radarr.andersjohansson.duckdns.org"
+  },
+  {
+    "id": 4,
+    "name": "Sonarr",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.oN5rMTtoyKAdTCum8J6ysAAAAA%26pid%3DApi&f=1",
+    "link": "https://sonarr.andersjohansson.duckdns.org"
+  },
+  {
+    "id": 5,
+    "name": "Qbittorrent",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.i86UrENipL_8ZDSozhUkoAHaHa%26pid%3DApi&f=1",
+    "link": "https://qbittorrent.andersjohansson.duckdns.org"
+  },
+  {
+    "id": 6,
+    "name": "Home Assistant",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.6zSkNyIh4BVLItP5ju4d5QHaHa%26pid%3DApi&f=1",
+    "link": "https://homeassistant.andersjohansson.duckdns.org"
+  },
+  {
+    "id": 7,
+    "name": "Bitwarden",
+    "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.bQtiPnIR7SQw2xJfBeYALAAAAA%26pid%3DApi&f=1",
+    "link": "https://vault.bitwarden.com"
+  }
+]

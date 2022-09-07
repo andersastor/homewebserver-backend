@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "EdoMz90VH7aKI1zQ8oAtnLPPCBpXD+fFnzd9k1cbhDw=",
+  "Source": "homewebserver-backend",
+  "BasePath": "_content/homewebserver-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "homewebserver-backend\\wwwroot",
+      "Source": "homewebserver-backend",
+      "ContentRoot": "D:\\Other\\Projects\\react\\homewebserver\\homewebserver-backend\\wwwroot\\",
+      "BasePath": "_content/homewebserver-backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Other\\Projects\\react\\homewebserver\\homewebserver-backend\\wwwroot\\data\\pages.json",
+      "SourceId": "homewebserver-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Other\\Projects\\react\\homewebserver\\homewebserver-backend\\wwwroot\\",
+      "BasePath": "_content/homewebserver-backend",
+      "RelativePath": "data/pages.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\pages.json"
+    }
+  ]
+}

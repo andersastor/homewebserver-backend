@@ -9,7 +9,7 @@ namespace homewebserver_backend.Controllers
     public class PagesController : ControllerBase
     {
         private readonly ILogger<PagesController> _logger;
-     
+
         private JsonFilePageService PageService { get; }
 
         public PagesController(JsonFilePageService jsonFilePageService, ILogger<PagesController> logger)

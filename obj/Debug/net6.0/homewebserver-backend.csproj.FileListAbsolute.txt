@@ -26,3 +26,4 @@ D:\Other\Projects\react\homewebserver\homewebserver-backend\obj\Debug\net6.0\hom
 D:\Other\Projects\react\homewebserver\homewebserver-backend\obj\Debug\net6.0\homewebserver-backend.genruntimeconfig.cache
 D:\Other\Projects\react\homewebserver\homewebserver-backend\obj\Debug\net6.0\ref\homewebserver-backend.dll
 D:\Other\Projects\react\homewebserver\homewebserver-backend\bin\Debug\net6.0\homewebserver-backend.staticwebassets.runtime.json
+D:\Other\Projects\react\homewebserver\homewebserver-backend\bin\Debug\net6.0\Newtonsoft.Json.dll

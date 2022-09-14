@@ -1,5 +1,11 @@
 // Generated from https://json2csharp.com/ based on data from https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=58.4109&lon=15.6216
 
+public class WeatherForecastTimeStampVars
+{
+    public DateTimeOffset? expires { get; set; }
+    public DateTimeOffset? lastModified { get; set; }
+}
+
 public class WeatherForecast
 {
     public string? type { get; set; }

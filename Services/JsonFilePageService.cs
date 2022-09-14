@@ -1,6 +1,5 @@
 ﻿using homewebserver_backend.Models;
-using Microsoft.Extensions.Primitives;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace homewebserver_backend.Services
 {
@@ -17,12 +16,15 @@ namespace homewebserver_backend.Services
 
         public IEnumerable<Page> GetPages()
         {
-            using StreamReader JsonFileReader = File.OpenText(JsonFileName);
-            return JsonSerializer.Deserialize<Page[]>(JsonFileReader.ReadToEnd(),
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
+            using StreamReader jsonFileReader = File.OpenText(JsonFileName);
+            string fileContent = jsonFileReader.ReadToEnd();
+            Page[]? pageList = null;
+
+            if (fileContent.Length > 0)
+            {
+                pageList = JsonConvert.DeserializeObject<Page[]>(fileContent);
+            }
+            return pageList != null ? pageList : Array.Empty<Page>();
         }
     }
 }

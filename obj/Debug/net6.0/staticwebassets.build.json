@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tnJOfvtwwZZG0EmywtAlKDClkzf/4fU4XzYk+EaelhQ=",
+  "Hash": "pIfGn1R4aTiCL3yCxkrRcUdN9BB9AkgbIvUV3dD4XYs=",
   "Source": "homewebserver-backend",
   "BasePath": "_content/homewebserver-backend",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\weatherforecast.json"
+    },
+    {
+      "Identity": "D:\\Other\\Projects\\react\\homewebserver\\homewebserver-backend\\wwwroot\\data\\weatherforecasttimestamps.json",
+      "SourceId": "homewebserver-backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Other\\Projects\\react\\homewebserver\\homewebserver-backend\\wwwroot\\",
+      "BasePath": "_content/homewebserver-backend",
+      "RelativePath": "data/weatherforecasttimestamps.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\weatherforecasttimestamps.json"
     }
   ]
 }
